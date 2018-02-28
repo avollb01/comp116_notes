@@ -1,0 +1,156 @@
+01-18-18
+
+						**********************************
+						*   Alejandro Vollbrechthausen   *
+						*						         *
+						*         Course Intro           *
+						**********************************
+
+								  *************
+								  * CIA Triad *
+								  *************
+1.Confidentiality
+2.Integrity
+3.Availability
+
+								   *********
+								   * Vocab *
+								   *********
+Event 
+	-Could be anything
+
+Incident
+	-A malicious event
+
+Bug 
+	-An error that exists in the implementation-level (i.e. only exist in source code); 
+	very correctable
+
+Flaw
+	-An error at a much deeper level, particularly in the design, and likely in the
+	code level; can be very difficult and costly to correct
+
+Hacker 
+	-A creative programmer; a positive connotation
+
+Cracker
+	-The bad guy, the attacker, what media coins "hacker" (the negative connotation). 
+	We'll use attacker in this class.
+
+Black hat 
+	-An attacker with malicious intents
+
+White hat 
+	-An attacker with good intents (i.e., the white knight)
+
+Gray hat 
+	-An attacker with good and bad intents
+
+Script kiddie or skiddie 
+	-Nuisance; not going away any time soon; 1337 (i.e., elite) wannabes; use scripts 
+	and exploits written by others and do not understand how they really work; always a lamer
+
+Vulnerability 
+	-A security bug (thanks Giovanni Vigna); a weakness in a system that can potentially 
+	be exploited by an attacker
+
+Exploiting or exploitation 
+	-The act of taking advantage of a vulnerability
+
+Exploit 
+	-Software program that performs the exploiting
+
+Risk 
+	-The likelihood that an attacker will take advantage of that vulnerability
+
+Threat 
+	-The likelihood that an incident will happen
+
+pwn3ed 
+	-Owned; successful exploitation; computer system completely compromised
+
+Zero day 
+	-an undisclosed vulnerability that attackers can take advantage of. A zero-day attack happens 
+	once that flaw, or software/hardware vulnerability, is exploited and attackers release malware 
+	before a developer has an opportunity to create a patch to fix the vulnerability—hence “zero-day.”
+
+
+						*******************************
+						* Possible reasons for attack *
+						*******************************
+
+• Preventing enemies from communicating over network
+• Steal information for attacker's benefit and get away with it
+• Disruption of business, daily life, day-to-day operations
+• Inserting information that "shouldn't be there”
+• Destroy information, resources
+• Gain access to a system and maintain access to system for a long time
+• Monitoring people what they are doing (e.g., webcams)
+• Challenging adversaries, pinpointing weaknesses
+• For fun and profit (e.g., the black market)
+• Spread propaganda
+• Building a blueprint of weaknesses –and keep it for future reference
+
+
+							***********************
+							* What is Networking? *
+							***********************
+
+• Two or more computers talking to each other
+• Basic definitions:
+	• Client - A program running on your computer
+		~Web browser - a client application that displays web pages (e.g., Chrome, Firefox,
+		 Microsoft Internet Explorer, Safari, Opera, lynx)
+	• Server - A computer running web server software on a remote computer; delivers 
+	  information to other clients
+		~Example: Apache HTTP Server
+	• Internet – The world’s largest computer network
+	• World Wide Web (or the “web”) - A collection of web sites, pages, and content around the world
+	• Localhost - home; this computer
+	• Socket - an endpoint instance defined by an IP address and a port in the context of either a 
+	  particular TCP connection or the listening state.
+	• Port - a virtualization identifier defining a service endpoint (as distinct from a service instance 
+	  endpoint aka session identifier); a number
+
+
+
+					*************************************
+					* The Seven Layers of the OSI Model *
+					*************************************
+
+1. Physical - Lowest level, the bit level; primary role is communicating raw bit streams over physical 
+   medium (e.g., Ethernet cable and card, "wires")
+2. Data link - Transferring data between two points connected by a physical layer; provides high level 
+   functions such as error correction and flow control (e.g., ARP, Ethernet)
+3. Network – Middle ground; pass information between the lower and higher layers; provides addressing 
+   and routing (e.g., IP, ICMP) --delivery is NOT guaranteed
+4. Transport - Provides transparent and reliable transfer of data between systems, including acknowledgement 
+   and segmentation (e.g., TCP, UDP)
+5. Session - Establishes and maintains connections between network applications
+6. Presentation - Allows for things like encryption and data compression (e.g., XML)
+7. Application - The highest level interfaces, the services that you use on the Internet
+	The famous and insecure ones by default, data all unencrypted:
+		• DNS – Domain Name Server (DNS) -> Port 53
+		• IMAP (Internet Message Access Protocol)
+		• Email -> Port 143
+		• FTP (File Transfer Protocol) • File transfer -> Port 21
+		• HTTP (Hypertext Transfer Protocol) • The foundation of data communication for the World Wide Web -> Port 80
+		• Telnet • Protocol that allows you to connect to remote computers -> Port 21
+		• POP (Post Office Protocol) • Email -> Port 110 • Current version is 3 thus protocol is now known as POP3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
